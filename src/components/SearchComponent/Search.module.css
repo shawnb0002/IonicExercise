@@ -1,0 +1,35 @@
+form{
+    padding: 10px;
+}
+
+.searchContainer{
+    searchContainer: flex;
+    justify-content: center;
+}
+
+.albumInput{
+    padding: 0 30px;
+	font-size: 18px;
+	width: 40%;
+	/* max-width: 400px; */
+	height: 43px;
+    border: solid 1px;
+	border-radius: 20px 0 0 20px;
+    outline: none;
+
+}
+
+.submitButton{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: solid #000000;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 130px;
+    height: 45px;
+}

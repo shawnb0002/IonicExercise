@@ -1,0 +1,67 @@
+div h3{
+    padding: 5px 0px 0px 10px;
+    margin: 0px 0px 10px 0px;
+    text-align: left;
+    color: white;
+}
+
+div p{
+    padding: 5px 0px 0px 10px;
+    margin: 0px 0px 10px 0px;
+    text-align: left;
+    color: white;
+}
+
+.albumContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album{
+    background-color: cadetblue;
+    width:300px;
+    height: 300px;
+    margin: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.albumOverlay{
+    background-color: black;
+    opacity: 0.7;
+    height: -webkit-fill-available;
+}
+
+
+/* onclick margin: -25px 0px 0px 0px;*/
+.readMore{
+    align-content: center;
+    /* background-color: black; */
+    position: relative;
+    /* margin: -85px 0px 0px 0px; */
+}
+
+.moreInfoSection p {
+    padding :1px 0px 0px 0px;
+    margin: 0px 0px 5px 0px;
+    text-align: center;
+    color: white;
+}
+
+.moreInfoButton{
+width: 100%;
+border: none;
+height: 25px;
+background-color: white;
+box-shadow: 0px -2px 2px white;
+}
+
+.moreInfoSection{
+    background-color: black;
+    opacity: 0.6;
+    /* max-height: 0; 60px*/
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
